@@ -1,4 +1,3 @@
-
 package com.postgresql.aqi.entity;
 
 import jakarta.persistence.*;
@@ -72,6 +71,8 @@ public class Aqi {
     @Version
     @Column(name = "version")
     private Long version;
+
+
 
     // Getters and Setters
     public Long getAqiId() {
